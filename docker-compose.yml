@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  exta:
+    restart: always
+    build: .
+    volumes:
+      - ".:/home/gradle/project"
+    ports:
+      - "5000:5000"

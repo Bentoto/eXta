@@ -1,0 +1,7 @@
+#Gradle files
+.gradle
+build
+
+#InteliJ files
+.idea
+exta
